@@ -6,7 +6,6 @@ import {fetchVideos} from '../../api/youtube';
 
 const App = () => (
   <div className="App">
-    Heloooo
       <header className="App-header">
       <SearchBox search = {fetchVideos}/>
       </header>
